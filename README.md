@@ -1,4 +1,4 @@
-# Automated Rubik's Cube Solving & Scrambling Robot with LEGO EV3
+# Rubik's Cube Solving Machine with LEGO EV3
 
 This project explores the intersection of robotics, programming, and puzzle solving by automating the solution of a Rubik's Cube. It serves as a hands-on learning experience in mechanical design, sensor integration, and software coordination using LEGO EV3.
 
@@ -30,11 +30,11 @@ You can find the project demonstration and final report here:
 ## Hardware Requirements
 
 - LEGO Mindstorms EV3 Brick
-- 3 EV3 Large Motors (arm flip, base rotation, sensor actuator)
-- EV3 Ultrasonic Sensor
-- EV3 Color Sensor (optional; fallback implemented)
+- 3 EV3 Large Motors (arm flip, base rotation, sensor actuator) — connected to Ports A, B, and C
+- EV3 Ultrasonic Sensor — connected to Port 2
+- EV3 Color Sensor (optional; fallback implemented) — connected to Port 4
 - Standard EV3 buttons for control input
-- EV3 structural parts for chassis, arm, and base
+- EV3 structural parts for chassis, arm, and base LEGO Mindstorms EV3 Brick
 
 ## Software Requirements
 
@@ -57,14 +57,16 @@ You can find the project demonstration and final report here:
 ## Setup & Installation
 
 1. Clone this repository:
+
    ```bash
-git clone https://github.com/s7pan/Rubik-s-Cube-Solver-.git
-cd Rubik-s-Cube-Solver-
-```
+   git clone https://github.com/s7pan/Rubik-s-Cube-Solver-.git
+   cd Rubik-s-Cube-Solver-
+   ```
 2. Install Python dependencies:
+
    ```bash
-pip install selenium
-```
+   pip install selenium
+   ```
 3. Download ChromeDriver and ensure it's on your PATH.
 4. Load `runRobot.c` and `readandwritefile.c` into your EV3 RobotC environment and compile to the brick.
 
@@ -87,7 +89,7 @@ pip install selenium
 | Ultrasonic check    | `ultrasonic()`   | Pass: Robot waits for cube   |
 | Scramble moves      | `randomScramble` | Pass: Valid sequences in file|
 | Solve execution     | `readAndTurn`    | Pass: Cube solved consistently|
-| Color sensing       | `colourSensor()` | Fail: fallback used           | citeturn0file1
+| Color sensing       | `colourSensor()` | Fail: fallback used           | 
 
 ## Future Improvements
 

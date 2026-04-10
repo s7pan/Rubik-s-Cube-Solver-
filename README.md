@@ -18,8 +18,9 @@ An automated system that uses LEGO Mindstorms EV3 hardware and RobotC/Python sof
 
 You can find the project demonstration and final report here:
 
-- [Project Demo (PDF)](docs/Project%20Demo%20.pdf)
+- [Project Rubric (PDF)](docs/Project%20Demo%20.pdf)
 - [Final Report (PDF)](docs/Robot%20Project%20Final%20Report%20.pdf)
+- [Project Demo (Video)](https://drive.google.com/file/d/12qriCUZ-mmv_ypdXU3Pdne0oMhcPiHIT/view)
 
 1. Place the cube on the base (white on top, green front).
 2. Press Left/Right button to scramble; robot randomizes cube and writes moves to `scramble.txt`.
